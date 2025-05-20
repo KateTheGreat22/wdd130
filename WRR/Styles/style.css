@@ -1,111 +1,107 @@
 
-body{
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
   background-color: rgb(65, 144, 170);
 }
 
 
-img.logo{
-    width: 80px
+img.logo,
+.icon {
+  width: 80px;
 }
 
-img.card{
+img.card {
   width: 150px;
 }
 
-#hero-img{
-      width: 100%;
+#hero-img {
+  width: 100%;
 }
 
-main{
+main {
   text-align: center;
 }
 
-#content{
+#content {
   margin: 0 auto;
   text-align: center;
   max-width: 1600px;
 }
 
-header{
+header {
   background-color: #c4b6a1;
 }
+
 h1 {
-    text-align: center;
-    color: #8D3C70;
-    font-weight: 300;
-    font-size: 80px;
+  text-align: center;
+  color: #8D3C70;
+  font-weight: 300;
+  font-size: 80px;
 }
 
-#hero-msg h4{
+#hero-msg h1 {
+  text-align: center;
+  background-color: rgb(65, 144, 170);
+}
+
+#hero-msg h4 {
   text-align: center;
 }
 
-#background{
+#background {
   height: 725px;
-  background-color: rgb(211, 213, 214);
 }
 
-.book{
+.book,
+.join {
   background-color: rgb(65, 144, 170);
-  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
 }
 
-.join{
-  background-color: rgb(65, 144, 170);
-  text-decoration: none;
-}
-.book:hover{
+.book:hover,
+.join:hover {
   background-color: rgb(151, 93, 151);
 }
-.join:hover{
-  background-color: rgb(151, 93, 151);
-}
-#hero-msg h1{
- text-align: center; 
- background-color: rgb(65, 144, 170);
-}
-.icon{
-  width: 80px;
-  height: 80px;
-}
-nav a{
+
+nav a {
   background-color: rgb(65, 144, 170);
   color: black;
   text-align: center;
-  text-decoration: none;
-}
-nav a:hover {
-    color: aliceblue;
-    background-color: rgb(65, 144, 170);
-    text-align: center;
-    text-decoration: underline;
-}
-msg{
-  background-color: rgb(65, 144, 170); 
+  padding: 10px;
+  display: inline-block;
 }
 
-footer{
+nav a:hover {
+  color: aliceblue;
+  text-decoration: underline;
+}
+
+footer {
   background-color: #c4b6a1;
   text-align: center;
-  text-decoration: none;
   font-size: 1.2em;
+  padding: 20px 0;
 }
 
-footer a{
-  text-decoration: none;
+footer a {
+  color: black;
 }
 
 footer p a:hover {
-    text-decoration: underline;
-}  
-
-footer:hover{
-  background-color: aquamarine;
   text-decoration: underline;
 }
-     
 
-.button-box{
+footer:hover {
+  background-color: aquamarine;
+}
+
+.button-box {
   text-align: center;
 }
 
