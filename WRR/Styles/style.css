@@ -42,7 +42,7 @@ h1 {
 
 #background{
   height: 725px;
-  background-color: rgb(65, 144, 170);
+  background-color: rgb(211, 213, 214);
 }
 
 .book{
@@ -69,14 +69,14 @@ h1 {
   height: 80px;
 }
 nav a{
-  background-color: #8D3C70;
+  background-color: rgb(65, 144, 170);
   color: black;
   text-align: center;
   text-decoration: none;
 }
 nav a:hover {
     color: aliceblue;
-    background-color: #8D3C70;
+    background-color: rgb(65, 144, 170);
     text-align: center;
     text-decoration: underline;
 }
@@ -94,6 +94,10 @@ footer{
 footer a{
   text-decoration: none;
 }
+
+footer p a:hover {
+    text-decoration: underline;
+}  
 
 footer:hover{
   background-color: aquamarine;
