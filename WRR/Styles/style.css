@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Lexend:wght@100..900&display=swap');
+
 
 a {
   text-decoration: none;
@@ -6,20 +10,43 @@ a {
 
 body {
   background-color: rgb(65, 144, 170);
+  font-family: Delius, Funnel Sans, Lexend;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 
-
-img.logo,
+.logo{
+  width: 80px
+}
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 
-img.card {
-  width: 150px;
+.card-img {
+  width: 300px;
+  border: 10px solid #0e0d0d;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 #hero-img {
   width: 100%;
+}
+
+.rivers-card{
+  margin: 200px 0;
+}
+
+.camping-card{
+  margin: 200px 0;
+}
+
+.rapids-card{
+  margin: 200px 0;
 }
 
 main {
@@ -32,6 +59,10 @@ main {
   max-width: 1600px;
 }
 
+#logo_link{
+  padding-top: 5px;
+}
+
 header {
   background-color: #c4b6a1;
 }
@@ -41,26 +72,59 @@ h1 {
   color: #8D3C70;
   font-weight: 300;
   font-size: 80px;
+  font-family: Delius, Funnel Sans, Lexend;
+}
+
+h2 {
+   margin: 0;
 }
 
 #hero-msg h1 {
   text-align: center;
   background-color: rgb(65, 144, 170);
+  font-family: Delius, Funnel Sans, Lexend;
 }
 
 #hero-msg h4 {
   text-align: center;
+  font-family: Delius, Funnel Sans, Lexend;
+}
+
+.home-title {
+    font-family: Delius, Funnel Sans, Lexend;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.msg p {
+  font-size: .8em;
+  padding-bottom: 15px;
 }
 
 #background {
   height: 725px;
 }
 
-.book,
+.msg {
+  background-color: #6f7364;
+  line-height: 1.5em;
+  padding: 35px;
+}
+
+.book {
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
 .join {
   background-color: rgb(65, 144, 170);
   color: white;
   padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
   border-radius: 5px;
 }
 
@@ -75,6 +139,7 @@ nav a {
   text-align: center;
   padding: 10px;
   display: inline-block;
+  padding: 35px;
 }
 
 nav a:hover {
@@ -86,7 +151,8 @@ footer {
   background-color: #c4b6a1;
   text-align: center;
   font-size: 1.2em;
-  padding: 20px 0;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 
 footer a {
@@ -99,6 +165,10 @@ footer p a:hover {
 
 footer:hover {
   background-color: aquamarine;
+}
+
+footer .social img{
+  padding-top: 15px;
 }
 
 .button-box {
