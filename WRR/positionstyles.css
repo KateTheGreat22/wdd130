@@ -161,7 +161,7 @@
 .content6 {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(6, 100px); /* adjust as needed */
+  grid-template-rows: repeat(6, 100px); 
   position: relative;
 }
 
