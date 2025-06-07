@@ -124,8 +124,8 @@ header {
   align-items: center;
 }
 
-nav a:hover {
-  color: white !important;
+header nav a:hover {
+  color: white;
   text-decoration: underline;
 }
 
@@ -158,7 +158,9 @@ h1 {
 }
 
 #background {
-  color: #c4b6a1;
+  width: 100%;
+  height: 725px;
+  background-color: #c4b6a1;
   grid-column: 1/11;
   grid-row: 4/9;
   margin-top: 40px;
@@ -233,9 +235,10 @@ nav a {
   display: inline-block;
 }
 
+
 nav a:hover {
-  color: aliceblue;
-  text-decoration: underline;
+    background-color: black;
+    color: #d9c2a3;
 }
 
 footer {
