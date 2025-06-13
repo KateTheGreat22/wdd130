@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+nav button {
+  padding: 30px;
+  cursor: pointer;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -17,9 +22,11 @@ body {
   padding: 0;
 }
 
-.logo {
-  width: 80px;
-}
+
+#logo_link
+.logo{
+  width: 80px
+} 
 
 #logo_link {
   padding-top: 5px;
