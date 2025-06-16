@@ -213,7 +213,7 @@ h1 {
 
 .book,
 .join {
-  background-color: rgb(65, 144, 170);
+  background-color: rgb(19, 23, 24);
   color: white;
   padding: 15px 30px;
   margin-top: 50px;
@@ -284,6 +284,38 @@ footer .social img{
 
 section {
   text-align: center;
+
+}
+
+
+/* rivers page */
+
+.second-grid{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 40px;
+  padding: 50px;
+}
+
+.river{
+  width: 400px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  border: #0e0d0d;
+  border: solid;
+  border-width: 10px;
+  border-radius: 15%;
+
+}
+
+.people{
+  width: 400px;
+  grid-column: 3/6;
+  grid-row: 3/6;
+  border: #0e0d0d;
+  border: solid;
+  border-width: 10px;
+  border-radius: 15%;
 
 }
 

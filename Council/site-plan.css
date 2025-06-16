@@ -31,6 +31,10 @@ Fonts are separated by a | */
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
+.wireframe{
+  width: 200px;
+}
+
 body {
   max-width: 1200px;
   margin: 0 auto;
