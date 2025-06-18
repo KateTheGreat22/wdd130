@@ -23,10 +23,9 @@ body {
 }
 
 
-#logo_link
-.logo{
-  width: 80px
-} 
+#logo_link .logo {
+  width: 80px;
+}
 
 #logo_link {
   padding-top: 5px;
@@ -297,26 +296,39 @@ section {
   padding: 50px;
 }
 
-.river{
-  width: 400px;
-  grid-column: 1/2;
+.rivers{
+  width: 470px;
+  grid-column: 2/4;
   grid-row: 1/2;
   border: #0e0d0d;
   border: solid;
   border-width: 10px;
   border-radius: 15%;
+  padding: 25px;
 
 }
+.river{
+  padding-top: 20px;
+  width: 300px;
+}
 
-.people{
-  width: 400px;
-  grid-column: 3/6;
-  grid-row: 3/6;
+.rivers_people{
+  width: 470px;
+  grid-column: 4/6;
+  grid-row: 4/6;
   border: #0e0d0d;
   border: solid;
   border-width: 10px;
   border-radius: 15%;
+  padding: 25px;
+}
+.wave{
+  width: 200px;
+}
 
+.people{
+  padding-top: 20px;
+  width: 300px;
 }
 
 
