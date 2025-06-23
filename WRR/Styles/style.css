@@ -2,124 +2,19 @@
 
 * {
   box-sizing: border-box;
-}
-
-nav button {
-  padding: 30px;
-  cursor: pointer;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   background-color: rgb(65, 144, 170);
   font-family: 'Delius', 'Funnel Sans', 'Lexend', sans-serif;
   font-size: 22px;
-  margin: 0;
-  padding: 0;
-}
-
-
-#logo_link .logo {
-  width: 80px;
-}
-
-#logo_link {
-  padding-top: 5px;
-  justify-self: center;
-  align-self: center;
-}
-
-.icon {
-  width: 80px;
-  padding-top: 10px;
-}
-
-.card-img {
-  width: 100%;
-  border: 10px solid #0e0d0d;
-  transition: transform .5s;
-  box-shadow: 5px 5px 10px #6f7364;
-}
-
-.card-img:hover {
-  opacity: .6;
-  transform: scale(1.1);
-}
-
-main section img {
-  box-sizing: border-box;
-}
-
-#hero {
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-  position: relative;
-  margin-top: 0;
-  margin-top: -100px; 
-}
-
-#hero-box {
-  grid-column: 1/4;
-  grid-row: 1/3;
-  z-index: -1;
-}
-
-#hero-img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-#hero-msg {
-  grid-column: 2/3;
-  grid-row: 1/2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 100px;
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 30px;
-  border-radius: 10px;
-  color: white;
-}
-
-#hero-msg h1,
-#hero-msg h4 {
-  color: white;
-  margin: 10px 0;
-  text-shadow: 1px 1px 3px black;
-}
-
-#hero-msg .book {
-  margin-top: 20px;
-  background-color: #c4b6a1;
-  color: black;
-  border: none;
-  padding: 12px 25px;
-  font-size: 1em;
-  border-radius: 5px;
-  box-shadow: 2px 2px 5px black;
-  transition: background-color 0.3s;
-  cursor: pointer;
-}
-
-#hero-msg .book:hover {
-  background-color: rgb(151, 93, 151);
-  color: white;
-}
-
-main {
   text-align: center;
 }
 
 #content {
   margin: 0 auto;
-  text-align: center;
   max-width: 1600px;
 }
 
@@ -130,101 +25,8 @@ header {
   align-items: center;
 }
 
-header nav a:hover {
-  color: white;
-  text-decoration: underline;
-}
-
-h1, h2, h4 {
-  font-family: 'Delius', 'Funnel Sans', 'Lexend', sans-serif;
-  margin: 0;
-}
-
-h1 {
-  color: black;
-  font-weight: 300;
-  font-size: 80px;
-}
-
-.home-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
-  padding: 50px;
-}
-
-.home-title {
-  font-size: 2em;
-  margin-top: 10px;
-}
-
-.msg p {
-  font-size: .8em;
-  padding-bottom: 15px;
-}
-
-#background {
-  width: 100%;
-  height: 725px;
-  background-color: #c4b6a1;
-  grid-column: 1/11;
-  grid-row: 4/9;
-  margin-top: 40px;
-}
-
-.msg {
-  background-color: #6f7364;
-  color: white;
-  line-height: 1.5em;
-  padding: 35px;
-  grid-column: 6/10;
-  grid-row: 6/7;
-  box-shadow: 5px 5px 10px #6f7364;
-
-}
-
-.mountains {
-    width: 100%;
-    grid-column: 2/7;
-    grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
-}
-
-.rivers-card{
-  width: 300px;
-  grid-column: 2/4;
-  grid-row: 2/3;
-}
-
-.camping-card{
-  width: 300px;
-  height: 300px;
-  grid-column: 5/7;
-  grid-row: 2/3;
-}
-
-.rapids-card{
-  width: 300px;
-  grid-column: 8/10;
-  grid-row: 2/3;
-}
-
-
-.book,
-.join {
-  background-color: rgb(19, 23, 24);
-  color: white;
-  padding: 15px 30px;
-  margin-top: 50px;
-  font-size: 18px;
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
-}
-
-.book:hover,
-.join:hover {
-  background-color: rgb(151, 93, 151);
+#logo_link .logo {
+  width: 80px;
 }
 
 nav {
@@ -236,15 +38,13 @@ nav {
 nav a {
   background-color: #c4b6a1;
   color: black;
-  text-align: center;
   padding: 35px;
-  display: inline-block;
+  text-decoration: none;
 }
 
-
 nav a:hover {
-    background-color: black;
-    color: #d9c2a3;
+  background-color: black;
+  color: #d9c2a3;
 }
 
 footer {
@@ -260,85 +60,86 @@ footer {
 
 footer a {
   color: black;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: white;
 }
 
 footer .social img {
   width: 50px;
   height: 50px;
-  padding-top: 0; /
-}
-
-footer p a:hover {
-  text-decoration: underline;
-  color: white;
-}
-
-footer .social img{
   padding-top: 15px;
 }
 
-.button-box {
-  text-align: center;
+/* Form Styling */
+form {
+  display: inline-block;
+  margin-top: 50px;
+  padding: 2em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  background-color: #fff;
 }
 
-section {
-  text-align: center;
-
+label {
+  display: inline-block;
+  min-width: 90px;
+  text-align: right;
 }
 
-
-/* rivers page */
-
-.second-grid{
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 40px;
-  padding: 50px;
-}
-
-.rivers{
-  width: 470px;
-  grid-column: 2/4;
-  grid-row: 1/2;
-  border: #0e0d0d;
-  border: solid;
-  border-width: 10px;
-  border-radius: 15%;
-  padding: 25px;
-
-}
-.river{
-  padding-top: 20px;
+input, textarea {
+  font: 1em sans-serif;
   width: 300px;
+  padding: 0.5em;
+  border: 1px solid #999;
+  margin-left: 1em;
 }
 
-.rivers_people{
-  width: 470px;
-  grid-column: 4/6;
-  grid-row: 4/6;
-  border: #0e0d0d;
-  border: solid;
-  border-width: 10px;
-  border-radius: 15%;
-  padding: 25px;
-}
-.wave{
-  width: 200px;
+input:focus, textarea:focus {
+  outline: 2px solid #000;
 }
 
-.people{
-  padding-top: 20px;
-  width: 300px;
+textarea {
+  height: 5em;
 }
 
+button {
+  margin-top: 1em;
+  padding: 0.7em 1.5em;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(19, 23, 24);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: rgb(151, 93, 151);
+}
+
+#feedback {
+  background-color: antiquewhite;
+  padding: 1em;
+  margin-top: 2em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  display: none;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.moveDown {
+  margin-top: 3em;
+}
 
 /* Mobile Responsive */
 @media screen and (max-width: 900px) {
-  #hero, .home-grid {
-    display: block;
-    height: auto;
-  }
-
   nav, footer {
     flex-direction: column;
   }
@@ -348,42 +149,7 @@ section {
     padding: 15px;
   }
 
-  .rivers-card, .camping-card, .rapids-card {
-    margin: 50px auto;
-    width: 80%;
-  }
-
-  #background, .msg {
-    width: 80%;
-    display: block;
-    margin: 0 auto;
-  }
-
-  .home-title {
-    font-size: 25px;
-  }
-
-  #hero-msg h4 {
-    display: none;
-  }
-
-  #hero-msg h1 {
-    color: #6f7364;
-  }
-
   footer {
     margin-top: 25px;
-    justify-content: center;
-  }
-
-  .footer-left, .footer-right {
-    flex: none;
-    text-align: center;
-    margin: 10px 0;
-  }
-
-  .footer-left {
-    gap: 15px;
-    flex-wrap: wrap;
   }
 }
