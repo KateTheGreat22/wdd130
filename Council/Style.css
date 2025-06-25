@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Lexend:wght@100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #B6D3A8;
+  font-family: 'Delius', 'Funnel Sans', 'Lexend', sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+
+.home{
+    color: antiquewhite;
+}
+
+.image{
+    width: 200px;
+}
+
+.second{
+    width: 200px;
+}
+
+.third{
+    width: 200px;
+}
+
+#content {
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 150px auto;
+  background-color: #5A3E2B;
+  align-items: center;
+}
+
+#logo_link .logo {
+  width: 80px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a {
+  background-color: #5A3E2B;
+  color: black;
+  padding: 35px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #d9c2a3;
+}
+
+footer {
+  background-color: #5A3E2B;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #d9c2a3;
+}
+
+footer .social img {
+  width: 50px;
+  height: 50px;
+  padding-top: 15px;
+}
+
+
+/* Mobile Responsive */
+@media screen and (max-width: 900px) {
+  nav, footer {
+    flex-direction: column;
+  }
+
+  nav a {
+    display: block;
+    padding: 15px;
+  }
+
+  footer {
+    margin-top: 25px;
+  }
+}
