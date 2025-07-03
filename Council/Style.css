@@ -14,7 +14,8 @@ body {
 }
 
 h1 {
-  color: #5A3E2B;
+  color: #103b16;
+  padding-bottom: 15px;
 }
 
 .image, .second, .third, .home_images1, .home_images2 {
@@ -78,14 +79,16 @@ header {
   padding: 20px;
   margin: 30px;
   p {
-  color: #5A3E2B;
+  color: #103b16;
 }
+  background-color: #bcb2a1;
 }
 
 .welcome {
   grid-column: 1 / span 3;
   grid-row: 1 / span 3;
-   padding-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .about {
