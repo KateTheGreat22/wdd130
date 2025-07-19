@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,58 +8,229 @@
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-   
-       <header>
-            <a id="logo_link" href="index.html">
-                <img class="logo" src="Image/council.png" alt="Council Logo">
-            </a>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="second.html">Events and Activities!</a>
-                <a href="third.html">Information!</a>
-            </nav>
-        </header>
-    <div id="content">
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="Image/council.png" alt="Council Logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="second.html">Events and Activities!</a>
+            <a href="third.html">Information!</a>
+        </nav>
+    </header>
 
-        </main>
-        <div class = "home">
-            <h1>
-                Information
-            </h1>
-            <p>
-               
-                The Council isn't just a group—it's a community. Our website plays a crucial role in ensuring every student at BYUI feels connected and supported. By centralizing information and providing easy access to our activities, we aim to enhance participation, foster new friendships, and create a sense of belonging.
+    <h2 class="council">Council Members!</h2>
+    <p class="council">Click on the buttons inside the tabbed menu to see everyone's information:</p>
 
-Join Us!
-
-Whether you're seeking advice, looking to meet new friends, or simply want to laugh along with us, The Council welcomes you. Explore our website, join our meetings, and become part of a community where knowledge, camaraderie, and a good laugh are always on the agenda.
-            </p>
-
-        <section class = "third_images">
-        <img class="third" src="Image/IMG_1816.jpg" alt="image for page3">
-        <img class="third" src="Image/IMG_1925.jpg" alt="image for page3">
-
-        </section>
-
-        </div>
-        <main>   
-
-        <footer>
-            <p>The Council &copy; 2025 - Kaitlyn Johnson</p>
-            <p><a href="contactus.html">Contact Us</a></p>
-            <div class="social">
-                <a href="site-plan.html">Site Plan!</a>
-                <a href="https://facebook.com" target="_blank">
-                    <img src="Image/facebook.png" alt="fb icon">
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img src="Image/twitter.png" alt="twitter icon">
-                </a>
-                <a href="https://instagram.com" target="_blank">
-                    <img src="Image/instagram.png" alt="instagram icon">
-                </a>
-            </div>
-        </footer>
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Drop_Down_Explanation')" id="defaultOpen">Drop Down Explanation</button>
+        <button class="tablinks" onclick="openCity(event, 'Aiden')">Aiden</button>
+        <button class="tablinks" onclick="openCity(event, 'Audrey')">Audrey</button>
+        <button class="tablinks" onclick="openCity(event, 'Blake')">Blake</button>
+        <button class="tablinks" onclick="openCity(event, 'Brin')">Brin</button>
+        <button class="tablinks" onclick="openCity(event, 'Caleb')">Caleb</button>
+        <button class="tablinks" onclick="openCity(event, 'Corinne')">Corinne</button>
+        <button class="tablinks" onclick="openCity(event, 'Gabbi')">Gabbi</button>
+        <button class="tablinks" onclick="openCity(event, 'GraceP')">Grace P.</button>
+        <button class="tablinks" onclick="openCity(event, 'GraceT')">Grace T.</button>
+        <button class="tablinks" onclick="openCity(event, 'Kaitlyn')">Kaitlyn</button>
+        <button class="tablinks" onclick="openCity(event, 'Kristen')">Kristen</button>
+        <button class="tablinks" onclick="openCity(event, 'Lilly')">Lilly</button>
+        <button class="tablinks" onclick="openCity(event, 'Luke')">Luke</button>
+        <button class="tablinks" onclick="openCity(event, 'McKayla')">McKayla</button>
+        <button class="tablinks" onclick="openCity(event, 'Megan')">Megan</button>
+        <button class="tablinks" onclick="openCity(event, 'Nichole')">Nichole</button>
+        <button class="tablinks" onclick="openCity(event, 'Tyler')">Tyler</button>
     </div>
+
+    <div id="Drop_Down_Explanation" class="tabcontent">
+        <h3>Drop Down</h3>
+        <p>For each individual, select their name to see their contact information, personality summary, and relationship status.</p>
+    </div>
+
+    <div id="Kaitlyn" class="tabcontent">
+        <h3>Kaitlyn</h3>
+        <p>Contact: Send smoke signals from a really tall mountain</p>
+        <p>Personality: Doesn't like drama but always stuck in it / Always caffinated</p>
+        <p>Relationship Status: Chronically single</p>
+        <img class="profile" src="Image/kaitlyn.jpg" alt="Kaitlyn" />
+    </div>
+
+    <div id="Blake" class="tabcontent">
+        <h3>Blake</h3>
+        <p>Contact: Yodel in German - Saxony accent preferred</p>
+        <p>Personality: Captain America with more of a resting face</p>
+        <p>Relationship Status: Missionary! - Do not touch</p>
+        <img class="profile" src="Image/blake.jpg" alt="Blake" />
+    </div>
+
+    <div id="Corinne" class="tabcontent">
+        <h3>Corinne</h3>
+        <p>Contact: Text preferred - 916-747-7453</p>
+        <p>Personality: Imagine Economics major with a fabulous sense of pizzaz</p>
+        <p>Relationship Status: Talking stage</p>
+        <img class="profile" src="Image/corinne.jpg" alt="Corinne" />
+    </div>
+
+    <div id="Audrey" class="tabcontent">
+        <h3>Audrey</h3>
+        <p>Contact: Summon the spirit of Bob Ross and ask it for happy little trees</p>
+        <p>Personality: Like a happy dream impersontated</p>
+        <p>Relationship Status: Internal and external screaming</p>
+        <img class="profile" src="Image/audrey.jpg" alt="Audrey" />
+    </div>
+
+    <div id="Brin" class="tabcontent">
+        <h3>Brin</h3>
+        <p>Contact: Messanger Cow</p>
+        <p>Personality: Meat / Nails / Gym / Cars / Dum Dums</p>
+        <p>Relationship Status: Engaged to Caleb</p>
+        <img class="profile" src="Image/brin.JPEG" alt="Brin" />
+    </div>
+
+    <div id="GraceP" class="tabcontent">
+        <h3>Grace P.</h3>
+        <p>Contact: Carrier pigeon but email works too for people too old to chase down birds</p>
+        <p>Personality: Will help you bury the body and help you get away with it</p>
+        <p>Relationship Status: Looking for a redheaded named Caleb/Kalob/Calob or with an additional spelling</p>
+        <img class="profile" src="Image/gracep.jpg" alt="Grace Parsons" />
+    </div>
+
+    <div id="Nichole" class="tabcontent">
+        <h3>Nichole</h3>
+        <p>Contact: Two part harmony from the edge of a balcony</p>
+        <p>Personality: Girl boss means getting to work at your own hours and schdule your own sanity breaks</p>
+        <p>Relationship Status: Single and ready to mingle . . . if you're an introvert</p>
+        <img class="profile" src="Image/nichole.jpg" alt="Nichole" />
+    </div>
+
+    <div id="Caleb" class="tabcontent">
+        <h3>Caleb</h3>
+        <p>Contact: Send tea to pass on to Brin</p>
+        <p>Personality: Girly pop of the friend group</p>
+        <p>Relationship Status: Engaged to Brin</p>
+        <img class="profile" src="Image/calebagain.jpg" alt="Caleb" />
+    </div>
+
+    <div id="Luke" class="tabcontent">
+        <h3>Luke</h3>
+        <p>Contact: Forage for him in the forrest or a baseball/hockey field</p>
+        <p>Personality: How come he ended up with the check dimples???</p>
+        <p>Relationship Status: Cutest relationship of The Council - Sorry Caleb and Brin</p>
+        <img class="profile" src="Image/luke.JPEG" alt="Luke" />
+    </div>
+
+    <div id="Megan" class="tabcontent">
+        <h3>Megan</h3>
+        <p>Contact: Hunt for her in the Hart building</p>
+        <p>Personality: Imagine an adorable dog mixed with a ninja</p>
+        <p>Relationship Status: Sworn off man handling</p>
+        <img class="profile" src="Image/megan.jpg" alt="Megan" />
+    </div>
+
+    <div id="Kristen" class="tabcontent">
+        <h3>Kristen</h3>
+        <p>Contact: Send a very expensive drone that takes insane paroramic photos and videos</p>
+        <p>Personality: Can and will bring the party</p>
+        <p>Relationship Status: Single and willing to mingle</p>
+        <img class="profile" src="Image/kristen.jpg" alt="Kristen" />
+    </div>
+
+    <div id="Gabbi" class="tabcontent">
+        <h3>Gabbi</h3>
+        <p>Contact: Drive through Rigby and look kinda lost</p>
+        <p>Personality: Gym</p>
+        <p>Relationship Status: Dating Tyler</p>
+        <img class="profile" src="Image/gabbi.jpg" alt="Gabbi" />
+    </div>
+
+    <div id="Tyler" class="tabcontent">
+        <h3>Tyler</h3>
+        <p>Contact: Plan an excellant FHE, and he will be there</p>
+        <p>Personality: Star Wars</p>
+        <p>Relationship Status: Dating Gabbi</p>
+        <img class="profile" src="Image/tyler.jpg" alt="Tyler" />
+    </div>
+
+    <div id="Aiden" class="tabcontent">
+        <h3>Aiden</h3>
+        <p>Contact: Make your blood sugar go dangerously low and he will be there . . . with sugar hopefully</p>
+        <p>Personality: Like a golden retriever smelling a flower in a cool way</p>
+        <p>Relationship Status: Leaving on a mission in a month</p>
+        <img class="profile" src="Image/adainagain.jpg" alt="Aiden" />
+    </div>
+
+    <div id="Lilly" class="tabcontent">
+        <h3>Lilly</h3>
+        <p>Contact: Waltz through the wardrobe to Narnia</p>
+        <p>Personality: Would survive Jumanji solely based on book knowledge</p>
+        <p>Relationship Status: Single but in Alaska</p>
+        <img class="profile" src="Image/lilly.jpg" alt="Lilly" />
+    </div>
+
+    <div id="McKayla" class="tabcontent">
+        <h3>Mckayla</h3>
+        <p>Contact: Hunt down a junior park ranger - they will know where to find her</p>
+        <p>Personality: Calendaring has never looked this good</p>
+        <p>Relationship Status: Currently unknown</p>
+        <img class="profile" src="Image/mckayla.jpg" alt="McKayla" />
+    </div>
+
+    <div id="GraceT" class="tabcontent">
+        <h3>Grace T.</h3>
+        <p>Contact: Cry very dramatically in French</p>
+        <p>Personality: A never ending source of energy</p>
+        <p>Relationship Status: Currently a missionary!</p>
+        <img class="profile" src="Image/gracet.jpg" alt="Grace T." />
+    </div>
+
+    <main>
+        <div class="home">
+            <div class="third_content">
+                <h1 class="tired">Information</h1>
+                <p>
+                    The Council isn't just a group—it's a community. Our website plays a crucial role in ensuring every student at BYUI feels connected and supported. By centralizing information and providing easy access to our activities, we aim to enhance participation, foster new friendships, and create a sense of belonging.
+
+                    Join Us!
+
+                    Whether you're seeking advice, looking to meet new friends, or simply want to laugh along with us, The Council welcomes you. Explore our website, join our meetings, and become part of a community where knowledge, camaraderie, and a good laugh are always on the agenda.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>The Council &copy; 2025 - Kaitlyn Johnson</p>
+        <p><a href="contactus.html">Contact Us</a></p>
+        <p><a href="site-plan.html">Site Plan!</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="Image/facebook.png" alt="Facebook icon" />
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="Image/twitter.png" alt="Twitter icon" />
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="Image/instagram.png" alt="Instagram icon" />
+            </a>
+        </div>
+    </footer>
+
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+        document.getElementById("defaultOpen").click();
+    </script>
 </body>
 </html>
